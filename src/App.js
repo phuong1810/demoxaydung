@@ -29,13 +29,13 @@ function App() {
       <div className="App">
         <Header/>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/gioi-thieu" element={<About />} />
-            <Route path="/dich-vu" element={<Service />} />
-            <Route path="/dich-vu/:id" element={<ServiceDetail />} />
-            <Route path="/tin-tuc" element={<News />} />
-            <Route path="/tin-tuc/:id" element={<NewsDetail />} />
-            <Route path="/lien-he" element={<Contact />} />
+            <Route path="/xaydung-anphat" element={<Home />} />
+            <Route path="/xaydung-anphat/gioi-thieu" element={<About />} />
+            <Route path="/xaydung-anphat/dich-vu" element={<Service />} />
+            <Route path="/xaydung-anphat/dich-vu/:id" element={<ServiceDetail />} />
+            <Route path="/xaydung-anphat/tin-tuc" element={<News />} />
+            <Route path="/xaydung-anphat/tin-tuc/:id" element={<NewsDetail />} />
+            <Route path="/xaydung-anphat/lien-he" element={<Contact />} />
             <Route path="*" element={<Home />} />
           </Routes>
         <Footer/>
