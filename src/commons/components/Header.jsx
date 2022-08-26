@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import logo from '../../assets/images/logo.png';
+import { Link } from 'react-router-dom';
 import infoCompanyApi from "../apis/infoCompanyApi";
 
 export default function Header() {
@@ -19,35 +20,55 @@ export default function Header() {
     };
 
     return (
-        <div className="header">
-            <div className="menu-top">
-                <div className="d-flex align-items-center justify-content-between">
-                    <div className="menu">
-                        <ul>
-                            <li><a className="transition " href="/" title="Home">Home</a></li>
-                            <li><a className="transition " href="gioi-thieu" title="Giới thiệu">Giới thiệu</a></li>
-                            <li>
-                                <a className="transition " href="dich-vu" title="Dịch vụ">Dịch vụ</a>
-                            </li>
-                            <li><a className="transition " href="tin-tuc" title="Tin tức">Tin tức</a></li>
-                            <li><a className="transition " href="lien-he" title="Liên hệ">Liên hệ</a></li>
+        <>
+            <div className="header">
+                <div className="menu-top">
+                    <div className="d-flex align-items-center justify-content-between">
+                        <div className="menu">
+                            <ul>
+                                
+                                <li>
+                                    <Link to={ '/' }>Home</Link>
+                                </li>
+                                <li>
+                                    <Link to={ '/gioi-thieu' }>Giới thiệu</Link>
+                                </li>
+                                <li>
+                                    <Link to={ '/dich-vu' }>Dịch vụ</Link>
+                                </li>
+                                <li>
+                                    <Link to={ '/tin-tuc' }>Tin tức</Link>
+                                </li>
+                                <li>
+                                    <Link to={ '/lien-he' }>Liên hệ</Link>
+                                </li>
+                            </ul>
+                        </div>
+                        <Link className="logo-header" to={ '/' }>
+                            <img src={logo} alt={info?.tencty2} />
+                        </Link>
+                        <ul className="info-header">
+                            <li>{info?.email}</li>
+                            <li>{info?.dienthoai}</li>
                         </ul>
                     </div>
-                    <a className="logo-header" href="/">
-                        <img src={logo} alt={info?.tencty2} />
-                    </a>
-                    <ul className="info-header">
-                        <li>{info?.email}</li>
-                        <li>{info?.dienthoai}</li>
-                        <li>
-                            <div className="lang-header">
-                                <a href="ngon-ngu/vi/">VI</a> |
-                                <a href="ngon-ngu/en/">EN</a>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
             </div>
-        </div>
+            <div className="fixed-mb">
+                <div className="menu-res">
+                    <div className="menu-bar-res">
+                        <a id="hamburger" href="#menu" title="Menu"><span></span></a>
+                        <Link className="logo-header" to={ '/' }><img src={logo} alt={info?.tencty2} /></Link>           
+                        <div className="search-res">
+                            <p className="icon-search transition"><i className="fa fa-search"></i></p>
+                            {/* <div className="search-grid w-clear">
+                                <input type="text" name="keyword2" id="keyword2" placeholder="Nhập từ khóa cần tìm..." onkeypress="doEnter(event,'keyword2');">
+                                <p onclick="onSearch('keyword2');"><i className="fa fa-search"></i></p>
+                            </div> */}
+                        </div>
+                    </div>                
+                </div>            
+            </div>
+        </>
     )
 }

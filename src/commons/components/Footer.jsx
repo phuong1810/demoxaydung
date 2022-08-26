@@ -20,7 +20,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="container">
-        <div className="info-lienhe wow fadeInUp" data-wow-offset="0" data-wow-duration="1"  data-wow-delay="0.2s">
+        <div className="info-lienhe">
           <h3>{info?.tencty2} <span>{info?.tencty}</span></h3>
           <ul>
               <li><span><i className="fas fa-map-marker-alt"></i> Địa chỉ:</span> {info?.diachi}</li>
@@ -30,12 +30,7 @@ export default function Footer() {
           </ul>
       </div>
       </div>
-      <div
-        className="bottom-footer wow fadeInUp"
-        data-wow-offset="0"
-        data-wow-duration="1"
-        data-wow-delay="0.4s"
-      >
+      <div className="bottom-footer">
         <div className="container">
           <ul>
             <li>
@@ -55,12 +50,12 @@ export default function Footer() {
             </li>
             <li>
               <a href="chinh-sach-xay-dung" title="Chính sách xây dựng ">
-                Chính sách xây dựng{" "}
+                Chính sách xây dựng
               </a>
             </li>
           </ul>
           <div className="copyright">
-            Copyright © 2022 Công Ty TNHH MTV Xây Dựng Cơ Khí An Phát.
+            {info?.copyright}
           </div>
         </div>
       </div>

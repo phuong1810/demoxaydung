@@ -1,7 +1,7 @@
 import axiosClient from './axiosClient';
 
 const socialApi = {
-    getSlider() {
+    getSocial() {
         const url = 'socialApi.json'
         return axiosClient.get(url)
     }
