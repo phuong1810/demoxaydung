@@ -36,7 +36,7 @@ function App() {
             <Route path="/tin-tuc" element={<News />} />
             <Route path="/tin-tuc/:id" element={<NewsDetail />} />
             <Route path="/lien-he" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<Home />} />
           </Routes>
         <Footer/>
       </div>
