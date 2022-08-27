@@ -26,8 +26,8 @@ export default function Project() {
                     </div>
                     <div className="col-12 col-sm-6">
                         <div className="img-duan">
-                            <a data-fancybox="gallery" data-src="upload/news/img-duan-6335-9224-5591.png" title="Dự án 1 (1) (1)">
-                                <img src="/images/img-duan.png" alt="Dự án 1 (1) (1)" title="Dự án 1 (1) (1)"/>
+                            <a href="#" title="Dự án 1 (1) (1)">
+                                <img src="./images/img-duan.png" alt="Dự án 1 (1) (1)" title="Dự án 1 (1) (1)"/>
                             </a>
                             
                         </div>

@@ -31,7 +31,7 @@ export default function Service() {
                                 <div className="item-service">
                                     <a href={"./dich-vu/" + service.id} title={service.ten}>
                                         <div className="img_hv">
-                                            <img src={`/images/${service?.img}`} alt={service.ten} title={service.ten}/>
+                                            <img src={`./images/${service?.img}`} alt={service.ten} title={service.ten}/>
                                         </div>
                                         <h3>{service.ten}</h3>
                                         <p>{service.mota}</p>

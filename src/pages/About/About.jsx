@@ -23,7 +23,7 @@ export default function AboutTop() {
                     </div>
                     <div className="wrap-about__right">
                         <div className="img_hv">
-                            <img src={`/images/${about?.img}`} alt={about?.ten} title={about?.ten}/>
+                            <img src={`./images/${about?.img}`} alt={about?.ten} title={about?.ten}/>
                         </div>
                     </div>
                 </div>

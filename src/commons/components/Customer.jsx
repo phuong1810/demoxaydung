@@ -10,40 +10,40 @@ export default function Customer() {
                             <div className="top">
                                 <div className="item-doitac">
                                     <a className="partner text-decoration-none" href="" target="_blank" title="">
-                                        <img src="/images/logo-an-phong-8267.jpg" alt="QP Theme" />
+                                        <img src="./images/logo-an-phong-8267.jpg" alt="QP Theme" />
                                     </a>
                                 </div>
                                 <div className="item-doitac">
                                     <a className="partner text-decoration-none" href="" target="_blank" title="">
-                                        <img src="/images/logo-nippon-paint-logo-9328.png" alt="QP Theme" />
+                                        <img src="./images/logo-nippon-paint-logo-9328.png" alt="QP Theme" />
                                     </a>
                                 </div>
                                 <div className="item-doitac">
                                     <a className="partner text-decoration-none" href="" target="_blank" title="">
-                                        <img src="/images/logo-hotun-1354.png" alt="QP Theme" />
+                                        <img src="./images/logo-hotun-1354.png" alt="QP Theme" />
                                     </a>
                                 </div>
                                 <div className="item-doitac">
                                     <a className="partner text-decoration-none" href="" target="_blank" title="">
-                                        <img src="/images/logo-kinh-do-3146.jpg" alt="QP Theme" />
+                                        <img src="./images/logo-kinh-do-3146.jpg" alt="QP Theme" />
                                     </a>
                                 </div>
                             </div>
                             <div className="bottom">
                                 <div className="img">
-                                    <img src="/images/19nam.png" alt="19 năm kinh nghiệm" />
+                                    <img src="./images/19nam.png" alt="19 năm kinh nghiệm" />
                                     <p>Năm kinh nghiệm</p>
                                 </div>
                                 <div className="right--v2">
                                     <div className="top--v1">
                                         <div className="item-doitac">
                                             <a className="partner text-decoration-none" href="" target="_blank" title="">
-                                                <img src="/images/logo-apt-4822.png" alt="QP Theme" />
+                                                <img src="./images/logo-apt-4822.png" alt="QP Theme" />
                                             </a>
                                         </div>
                                         <div className="item-doitac">
                                             <a className="partner text-decoration-none" href="" target="_blank" title="">
-                                                <img src="/images/logo-flowcrete-4939.jpg" alt="QP Theme" />
+                                                <img src="./images/logo-flowcrete-4939.jpg" alt="QP Theme" />
                                             </a>
                                         </div>
                                     </div>

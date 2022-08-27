@@ -45,7 +45,7 @@ export default function SliderSlick() {
                         {socialList.map((social, index) => (
                             <li key={index}>
                                 <a href={social?.link} title={social?.ten}>
-                                    <img src={`/images/${social?.img}`} alt={social?.ten} title={social?.ten} />
+                                    <img src={`./images/${social?.img}`} alt={social?.ten} title={social?.ten} />
                                 </a>
                             </li>
                         ))}
@@ -57,7 +57,7 @@ export default function SliderSlick() {
                             <div key={index}>
                                 <a href={slider.link} target="_blank" title={slider.ten}>
                                     <div className="img">
-                                        <img src={`/images/${slider.img}`} alt={slider.ten} title={slider.ten}/>
+                                        <img src={`./images/${slider.img}`} alt={slider.ten} title={slider.ten}/>
                                     </div>
                                     <div className="info">
                                         <div>

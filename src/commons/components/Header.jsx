@@ -28,23 +28,23 @@ export default function Header() {
                             <ul>
                                 
                                 <li>
-                                    <Link to={ '/' }>Home</Link>
+                                    <Link to={ '/xaydung-anphat/' }>Home</Link>
                                 </li>
                                 <li>
-                                    <Link to={ '/gioi-thieu' }>Giới thiệu</Link>
+                                    <Link to={ '/xaydung-anphat/gioi-thieu' }>Giới thiệu</Link>
                                 </li>
                                 <li>
-                                    <Link to={ '/dich-vu' }>Dịch vụ</Link>
+                                    <Link to={ '/xaydung-anphat/dich-vu' }>Dịch vụ</Link>
                                 </li>
                                 <li>
-                                    <Link to={ '/tin-tuc' }>Tin tức</Link>
+                                    <Link to={ '/xaydung-anphat/tin-tuc' }>Tin tức</Link>
                                 </li>
                                 <li>
-                                    <Link to={ '/lien-he' }>Liên hệ</Link>
+                                    <Link to={ '/xaydung-anphat/lien-he' }>Liên hệ</Link>
                                 </li>
                             </ul>
                         </div>
-                        <Link className="logo-header" to={ '/' }>
+                        <Link className="logo-header" to={ '/xaydung-anphat/' }>
                             <img src={logo} alt={info?.tencty2} />
                         </Link>
                         <ul className="info-header">
@@ -58,7 +58,7 @@ export default function Header() {
                 <div className="menu-res">
                     <div className="menu-bar-res">
                         <a id="hamburger" href="#menu" title="Menu"><span></span></a>
-                        <Link className="logo-header" to={ '/' }><img src={logo} alt={info?.tencty2} /></Link>           
+                        <Link className="logo-header" to={ '/xaydung-anphat/' }><img src={logo} alt={info?.tencty2} /></Link>           
                         <div className="search-res">
                             <p className="icon-search transition"><i className="fa fa-search"></i></p>
                             {/* <div className="search-grid w-clear">

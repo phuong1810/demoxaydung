@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosClient = axios.create({
-    baseURL: '/xaydung-anphat/api/',
+    baseURL: './api/',
     headers: {
         'Content-Type': 'application/json'
     }
