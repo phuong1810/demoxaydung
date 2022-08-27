@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xaydung-anphat/static/css/main.3f962ba8.css",
-    "main.js": "/xaydung-anphat/static/js/main.444df775.js",
+    "main.js": "/xaydung-anphat/static/js/main.b08d907b.js",
     "static/js/787.73f59946.chunk.js": "/xaydung-anphat/static/js/787.73f59946.chunk.js",
     "static/media/fa-solid-900.svg": "/xaydung-anphat/static/media/fa-solid-900.76857d47348d8e00ee05.svg",
     "static/media/fa-brands-400.svg": "/xaydung-anphat/static/media/fa-brands-400.4a43897c83af77d2ffec.svg",
@@ -60,11 +60,11 @@
     "static/media/slick.woff": "/xaydung-anphat/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/xaydung-anphat/index.html",
     "main.3f962ba8.css.map": "/xaydung-anphat/static/css/main.3f962ba8.css.map",
-    "main.444df775.js.map": "/xaydung-anphat/static/js/main.444df775.js.map",
+    "main.b08d907b.js.map": "/xaydung-anphat/static/js/main.b08d907b.js.map",
     "787.73f59946.chunk.js.map": "/xaydung-anphat/static/js/787.73f59946.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f962ba8.css",
-    "static/js/main.444df775.js"
+    "static/js/main.b08d907b.js"
   ]
 }
